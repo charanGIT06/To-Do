@@ -1,0 +1,84 @@
+:root {
+    --balck: black;
+    --white: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html, h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
+body {
+    background-color: black;
+    color: white;
+}
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.main h1 {
+    text-align: center;
+    font-size: 6rem;
+    padding: 2rem;
+}
+.textbox {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}   
+.elements {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.6rem;
+    padding: 0.6rem 0 0.6rem 0;
+}
+.text {
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem;
+}
+input {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.addBtn {
+    width: 20%;
+    height: 100%;
+    padding: 0.5rem;
+    color: white;
+    border-color: white;
+    background-color: inherit;
+}
+
+.ele {
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+.ele p:first-child {
+    margin-right: auto;
+}
+.ele p:not(:first-child) {
+    padding: 0 0.5rem 0 0.5rem;
+    margin-right: 0.2rem;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.editBox {
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+}
